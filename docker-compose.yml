@@ -1,0 +1,10 @@
+services:
+  api:
+    build:
+      context: .
+      dockerfile: docker/Dockerfile
+    image: devops-api:0.2.0
+    container_name: devops-api
+    ports:
+      - "8000:8000"
+    restart: unless-stopped
