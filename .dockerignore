@@ -1,0 +1,29 @@
+# Git
+.git/
+.gitignore
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.pytest_cache/
+
+# IDEs
+.vscode/
+.idea/
+
+# Docker (não copia o próprio Dockerfile)
+docker/
+Dockerfile
+.dockerignore
+
+# Documentation
+docs/
+*.md
+
+# Other tools
+k8s/
+terraform/
+monitoring/
+.github/
