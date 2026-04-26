@@ -1,0 +1,67 @@
+# ================================
+# Python
+# ================================
+__pycache__/
+*.py[cod]
+*.so
+.venv/
+venv/
+env/
+.pytest_cache/
+.coverage
+htmlcov/
+*.egg-info/
+dist/
+build/
+
+# ================================
+# IDEs / Editors
+# ================================
+.vscode/
+.idea/
+*.swp
+.DS_Store
+
+# ================================
+# Docker
+# ================================
+docker-compose.override.yml
+
+# ================================
+# Terraform
+# ================================
+**/.terraform/*
+*.tfstate
+*.tfstate.*
+*.tfvars
+*.tfplan
+
+# ================================
+# Kubernetes
+# ================================
+kubeconfig
+*.kubeconfig
+
+# ================================
+# Secrets - NEVER commit these!
+# ================================
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.crt
+secrets/
+credentials.json
+service-account*.json
+
+# ================================
+# Logs
+# ================================
+*.log
+logs/
+
+# ================================
+# Operating System
+# ================================
+Thumbs.db
