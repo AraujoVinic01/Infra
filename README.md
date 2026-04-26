@@ -44,6 +44,8 @@ Code → Container → CI/CD → Cluster → Cloud → Metrics
 - [ ] **Phase 6** — Monitoring with Prometheus and Grafana dashboards
 
 ## 📁 Repository structure
+
+```text
 .
 ├── app/             # API source code (FastAPI)
 ├── docker/          # Dockerfiles & docker-compose
@@ -52,6 +54,7 @@ Code → Container → CI/CD → Cluster → Cloud → Metrics
 ├── terraform/       # Infrastructure as Code
 ├── monitoring/      # Prometheus & Grafana configs
 └── docs/            # Phase-by-phase documentation
+```
 
 ## 🚀 Getting started
 
