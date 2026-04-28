@@ -7,14 +7,17 @@ Each endpoint is intentionally minimal so we can focus on the surrounding toolin
 """
 
 from fastapi import FastAPI
+from prometheus_fastapi_instrumentator import Instrumentator
 
 # Create the FastAPI application instance
 app = FastAPI(
     title="DevOps from Scratch API",
     description="A learning-oriented API used as the core of a DevOps portfolio project.",
-    version="0.1.0",
+    version="0.3.0",
 )
 
+# Setup Prometheus instrumentation: exposes metrics at /metrics
+Instrumentator().instrument(app).expose(app)
 
 @app.get("/")
 def read_root():
