@@ -36,11 +36,11 @@ Code → Container → CI/CD → Cluster → Cloud → Metrics
 
 ## 🗺️ Roadmap
 
-- [ ] **Phase 1** — Python API (FastAPI) with endpoints, tests, and clean structure
-- [ ] **Phase 2** — Docker containerization & multi-stage builds
-- [ ] **Phase 3** — CI/CD pipeline with GitHub Actions
-- [ ] **Phase 4** — Kubernetes deployments, services, and ingress
-- [ ] **Phase 5** — Cloud infrastructure provisioning with Terraform
+- [x] **Phase 1** — Python API (FastAPI) with endpoints, tests, and clean structure
+- [x] **Phase 2** — Docker containerization & multi-stage builds
+- [x] **Phase 3** — CI/CD pipeline with GitHub Actions
+- [x] **Phase 4** — Kubernetes deployments, services, and ingress
+- [x] **Phase 5** — Cloud infrastructure provisioning with Terraform
 - [ ] **Phase 6** — Monitoring with Prometheus and Grafana dashboards
 
 ## 📁 Repository structure
@@ -70,11 +70,11 @@ cd Infra
 
 Detailed write-ups for each phase live under [`docs/`](docs/):
 
-- `docs/phase-1-api.md` — _coming soon_
-- `docs/phase-2-docker.md` — _coming soon_
-- `docs/phase-3-cicd.md` — _coming soon_
-- `docs/phase-4-kubernetes.md` — _coming soon_
-- `docs/phase-5-terraform.md` — _coming soon_
+- [`docs/phase-1-api.md`](docs/phase-1-api.md) — Python API foundations
+- [`docs/phase-2-docker.md`](docs/phase-2-docker.md) — Containerization with Docker
+- [`docs/phase-3-cicd.md`](docs/phase-3-cicd.md) — CI with GitHub Actions
+- [`docs/phase-4-kubernetes.md`](docs/phase-4-kubernetes.md) — Orchestration with Kubernetes
+- [`docs/phase-5-terraform.md`](docs/phase-5-terraform.md) — Infrastructure as Code with Terraform
 - `docs/phase-6-monitoring.md` — _coming soon_
 
 ## 📜 License
