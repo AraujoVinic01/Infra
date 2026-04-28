@@ -13,10 +13,14 @@ spec:
     metadata:
       labels:
         app: devops-api
+      annotations:
+        prometheus.io/scrape: "true"
+        prometheus.io/port: "8000"
+        prometheus.io/path: "/metrics"
     spec:
       containers:
         - name: api
-          image: devops-api:0.2.0
+          image: devops-api:0.3.0
           imagePullPolicy: IfNotPresent
           ports:
             - containerPort: 8000
