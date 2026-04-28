@@ -2,7 +2,7 @@
 
 A portfolio project documenting my hands-on journey learning DevOps — from code to infrastructure, from CI/CD to monitoring.
 
-![Status](https://img.shields.io/badge/status-in%20progress-yellow)
+![Status](https://img.shields.io/badge/status-complete-success)
 ![License](https://img.shields.io/badge/license-MIT-blue)
 ![Python](https://img.shields.io/badge/python-3.12-blue?logo=python&logoColor=white)
 ![Docker](https://img.shields.io/badge/docker-ready-blue?logo=docker&logoColor=white)
@@ -41,7 +41,7 @@ Code → Container → CI/CD → Cluster → Cloud → Metrics
 - [x] **Phase 3** — CI/CD pipeline with GitHub Actions
 - [x] **Phase 4** — Kubernetes deployments, services, and ingress
 - [x] **Phase 5** — Cloud infrastructure provisioning with Terraform
-- [ ] **Phase 6** — Monitoring with Prometheus and Grafana dashboards
+- [x] **Phase 6** — Monitoring with Prometheus and Grafana dashboards
 
 ## 📁 Repository structure
 
@@ -58,8 +58,6 @@ Code → Container → CI/CD → Cluster → Cloud → Metrics
 
 ## 🚀 Getting started
 
-> ⚠️ Commands will be expanded as each phase is completed.
-
 ```bash
 # Clone the repository
 git clone https://github.com/AraujoVinic01/Infra.git
@@ -75,12 +73,10 @@ Detailed write-ups for each phase live under [`docs/`](docs/):
 - [`docs/phase-3-cicd.md`](docs/phase-3-cicd.md) — CI with GitHub Actions
 - [`docs/phase-4-kubernetes.md`](docs/phase-4-kubernetes.md) — Orchestration with Kubernetes
 - [`docs/phase-5-terraform.md`](docs/phase-5-terraform.md) — Infrastructure as Code with Terraform
-- `docs/phase-6-monitoring.md` — _coming soon_
+- [`docs/phase-6-monitoring.md`](docs/phase-6-monitoring.md) — Monitoring with Prometheus & Grafana
 
 ## 📜 License
 
 Distributed under the MIT License. See [LICENSE](LICENSE) for more information.
 
 ---
-
-Built with ☕ and curiosity by [AraujoVinic01](https://github.com/AraujoVinic01)
